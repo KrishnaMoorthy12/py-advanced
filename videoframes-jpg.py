@@ -43,3 +43,5 @@ except Exception as e:
 video.release()
 pause
 print('Frames are saved to ', dir_name)
+# pause (5)
+cv.destroyAllWindows()
