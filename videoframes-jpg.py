@@ -3,9 +3,9 @@ import numpy as np
 import os
 import datetime as dt
 import shutil
-# vidFile = str(input('Enter File name: ')) + '.mp4'
+vidFile = str(input('Enter File name: ')) + '.mp4'
 # ask: file format???
-vidFile = 'example.mp4'
+# vidFile = 'example.mp4'
 
 today = str(dt.date.today()).replace('-', '')
 video = cv.VideoCapture(vidFile)
